@@ -49,7 +49,7 @@ function Login() {
 
     return (
         <div className="flex justify-center items-center h-screen bg-slate-100">
-            <div className="bg-white p-4 rounded-lg shadow-md w-[400px]">
+            <div className="bg-white p-4 rounded-xl shadow-md w-[372px]">
                 <h1 className="text-2xl font-bold mb-4">Login</h1>
                 <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-2">
                     <div>
